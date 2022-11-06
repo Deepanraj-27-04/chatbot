@@ -5,7 +5,11 @@ def greet_random():
     n=randint(0,(len(greeting)-1))
     return greeting[n]
 
-print("vanakkam,I am chatbot repeats whatever you say")
-greet_ing=greet_random()
+print(greet_random(),",I am chatbot repeats whatever you say")
+
+
+
+    
+  
 
     
